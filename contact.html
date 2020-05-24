@@ -12,24 +12,45 @@
  
   <body>
 
-    <!-- NavBar -->
+<!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><h2>Ricardo Manosalvas</h2></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">About Me</a>
-            <a class="nav-item nav-link" href="#">Portfolio</a>
-            <a class="nav-item nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
-            </div>
-        </div>
+      <span class="navbar-brand mb-1 h1">Ricardo Manosalvas</span>
+      <div class="navbar-collapse" id="navbarSupportedContent" style>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  nav-link active" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+<!-- NavBar End -->
 
+<!-- Contact Form -->
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Full Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
+  </div>
 
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
 
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message here</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!-- Contact Form End -->
 
   </body>
 </html>
