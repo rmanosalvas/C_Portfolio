@@ -1,3 +1,7 @@
+body {
+    background-color: moccasin;
+}
+
 h1 {
     font-family: 'Vollkorn', serif;
 }
@@ -14,11 +18,13 @@ p {
     font-family: 'Sorts Mill Goudy', serif;
 }
 
-footer {
+.footer {   
+    position: relative;
+    bottom: 0em;
+    width: 100%;
     background: #42A5F5;
     color: white;
     line-height: 50px;
-    padding: 0 20px;
   }
 
 
